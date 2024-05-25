@@ -1,6 +1,6 @@
 ---
-pagetitle: "SRM Slides"
-description: "Slides for the R workshop at the SRM University, Sonipat."
+pagetitle: "GJU Slides"
+description: "Slides for the R workshop at the GJU, Hisar."
 format: 
   revealjs:
     theme: [default, style.scss]
@@ -25,7 +25,17 @@ knitr:
 
 # [{{< fa brands r-project size=large >}} FOR<br>BEGINNERS]{.r-fit-text .right .navy-blue} {background-image="images/title-front.jpg" background-size=cover}
 
-[Dr. Ajay Kumar Koli, PhD $\cdot$ SRM University $\cdot$ 2 May 2024]{.r-fit-text}
+:::: {.columns .center}
+
+::: {.column width="45%"}
+
+:::
+
+::: {.column width="55%"}
+[Speaker: Dr. Ajay Kumar Koli, PhD | 28 May 2024.<br>Venue: The Department of Food Technology<br>Guru Jambheshwar University Science & Technology, Hisar.]{.r-fit-text .right}
+
+:::
+::::
 
 ```{r}
 #| label: packages-used
@@ -59,7 +69,7 @@ library(countdown)
 
 {{< fa award >}} Founder & Executive Director
 
-{{< fa play >}} [SARA Institute of Data Science](https://saraedu.netlify.app/)
+{{< fa play >}} [SARA Institute of Data Science](https://sara-edu.netlify.app/)
 
 {{< fa brands twitter >}} [@sara_institute](https://twitter.com/sara_institute)
 
@@ -78,17 +88,17 @@ library(countdown)
 
 > To share reasons with you (and hopefully convince you) why you should learn data science tools like R, python, GitHub, quarto etc.
 
-## When we work {.center}
+##  {.center}
 
 ![](images/researcher.jpg){fig-align="center"}
 
-[We [think]{.theme-red} we look like this but ...]{.r-fit-text}
+[Work, we [think.]{.theme-red}]{.r-fit-text}
 
-## While working {.center}
-
-[Our [actual]{.theme-red} look.]{.r-fit-text}
+## {.center}
 
 ![](images/researcher-sad.webp){fig-align="center"}
+
+[Work, [actually.]{.theme-red}]{.r-fit-text}
 
 ## 🤯 Work Flowchart
 
@@ -134,7 +144,7 @@ Other Tools:
 
 ::::
 
-## Work Influencer
+## Work Influencer {visibility="hidden"}
 
 <br>
 
@@ -313,9 +323,9 @@ Other Tools:
 ::: {.column width="50%"}
 <br>
 
--   R version 4.3.1 (2023-06-16)
+-   R version 4.4.0 (2024-04-24)
 
--   R name "Beagle Scouts"
+-   R name "Puppy Cup"
 
 -   R licence "ABSOLUTELY NO WARRANTY"
 
